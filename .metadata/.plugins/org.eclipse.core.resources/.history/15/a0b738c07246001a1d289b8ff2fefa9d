@@ -1,0 +1,9 @@
+package ArrayPrograms;
+//WAJP to find biggest element from the given 2 array without merging and sorting
+public class MainArr1 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+}

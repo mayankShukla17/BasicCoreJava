@@ -1,0 +1,24 @@
+package MindTreePrograms;
+import java.util.Scanner;
+//Remove the vowels from the given String
+//I/P:- MynameisAnthony.
+//O/P:- Mynmsnthny
+public class Prog2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string");
+		String s1=sc.next();
+		String v="AEIOUaeiou";
+		String s2="";
+		for (int i = 0; i <s1.length(); i++) 
+		{
+			char ch=s1.charAt(i);
+			if(v.indexOf(ch)==-1)
+				s2+=ch;
+		}
+		System.out.println(s2);
+	}
+}
+

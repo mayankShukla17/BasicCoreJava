@@ -1,0 +1,8 @@
+package MBBootcamp.HackerRank;
+public class paras {
+
+	public static void main(Object[] args) {
+		System.out.println("amrit");
+	}
+
+}

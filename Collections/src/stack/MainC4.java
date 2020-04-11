@@ -1,0 +1,64 @@
+package stack;
+
+/*Application of stack 
+Check the string is balanced or not
+"{}"
+"{()}"
+"({[]})"
+"{()}[]{}"
+"{(})"
+"}{"*/
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class MainC4 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Expression");
+		String str=sc.next();
+		boolean rs=isBalanced(str);
+		if(rs)
+			System.out.println("Balanced");
+		else 
+			System.out.println("Not Balanced");
+	}
+
+	static boolean isBalanced(String str) 
+	{
+		Stack<Character> stk=new Stack<Character>();
+		for (int i = 0; i < str.length(); i++) 
+		{
+			char ch=str.charAt(i);
+			if (ch=='['||ch=='{'||ch=='(') 
+			{
+				stk.push(ch);
+			}
+			else 
+			{
+				if (stk.isEmpty()) 
+				{
+					return false;
+				}
+				else 
+				{
+					switch (ch) 
+					{
+					case ']':if(stk.pop()!='[') 
+								return false;
+						break;
+					case '}':if(stk.pop()!='{') 
+								return false;
+						break;
+					case ')':if(stk.pop()!='(') 
+								return false;
+						break;
+					}
+				}
+			}
+		}
+		return stk.isEmpty();
+	}
+}

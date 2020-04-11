@@ -1,0 +1,30 @@
+package MindTreePrograms;
+import java.util.Scanner;
+//WAJP 
+public class Prog3 
+{
+	static int stringSimilarity(String s)
+    {
+        char[]arr=s.toCharArray();
+        int count=arr.length;
+        for(int i=1;i<arr.length;i++)
+        {
+            int j=0;
+            for(;j<arr.length-i;j++)
+                if(arr[j]!=arr[j+i])
+                {
+                    break;
+                }
+            count+=j;
+        }
+        return count;
+    }
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		String st=sc.nextLine();
+		System.out.println(stringSimilarity(st));
+
+	}
+}

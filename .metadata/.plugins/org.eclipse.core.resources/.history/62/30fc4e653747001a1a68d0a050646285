@@ -1,0 +1,10 @@
+package StringPrograms;
+//WAJP to check two strings are anagram or not.
+public class MainStr10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

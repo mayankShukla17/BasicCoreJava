@@ -1,0 +1,38 @@
+package ArrayPrograms;
+//WAJP to count how many even and odd present in the matrix
+//Define a method to return how many odd & even no present in the matrix.
+import java.util.Scanner;
+
+public class MainMat6 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		Matrix mt=new Matrix();
+		System.out.println("Read Matrix: ");
+		int a[][]=mt.readMat();
+		System.out.println("Entered Matrix: ");
+		mt.dispMat(a);
+		int c[]=mt.countEO(a);
+		System.out.println("Number of Even values: "+c[0]);
+		System.out.println("Number of Odd values: "+c[1]);
+		
+		int pn[]=mt.countPN(a);
+		System.out.println("Number of Positive values: "+pn[0]);
+		System.out.println("Number of Negative values: "+pn[1]);
+		
+		
+		mt.countPN(a);
+		int b[]=mt.rowWiseBiggest(a);
+		for (int i = 0; i < b.length; i++) 
+		{
+			System.out.println(i+1+" row Biggest is: "+b[i]);
+		}
+		
+		int cw[]=mt.columnWiseBiggest(a);
+		for (int i = 0; i <cw.length; i++) 
+		{
+			System.out.println(i+1+" column Biggest is: "+cw[i]);
+		}
+	}
+}

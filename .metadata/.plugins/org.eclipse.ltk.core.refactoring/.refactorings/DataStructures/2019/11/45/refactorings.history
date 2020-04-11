@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DataStructures/src/SortingTechniques/DivideConquerSortingTechnique&apos; to &apos;DivideConquerSortingTechniques&apos;" description="Rename resource &apos;DivideConquerSortingTechnique&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SortingTechniques/DivideConquerSortingTechnique" name="DivideConquerSortingTechniques" stamp="1572790535524" updateReferences="true"/>
+</session>

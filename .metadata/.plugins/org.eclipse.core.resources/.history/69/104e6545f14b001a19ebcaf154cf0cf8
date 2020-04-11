@@ -1,0 +1,16 @@
+package ArrayPrograms;
+//Define a method to add two matrix
+public class MainMat5 
+{
+	public static void main(String[] args) 
+	{
+		Matrix mt=new Matrix();
+		System.out.println("First Matrix: ");
+		int a[][]=mt.readMat();
+		System.out.println("Second Matrix: ");
+		int b[][]=mt.readMat();
+		System.out.println("Third Matrix: ");
+		int c[][]=mt.readMat();
+		
+	}
+}

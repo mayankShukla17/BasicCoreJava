@@ -1,0 +1,85 @@
+package Arrays;
+
+/*
+ * Wajp to count how many prime no present in the array.
+*/
+
+//import java.util.Scanner;
+//
+//public class MainA6 
+//{
+//	public static void main(String[] args) 
+//	{
+//		Scanner sc =new Scanner(System.in);
+//		System.out.println(" Enter how many values you have. ");
+//		int n=sc.nextInt();
+//		int ar[]=new int[n];
+//		System.out.println(" Enter " + n + " values. ");
+//		for (int i = 0; i < ar.length; i++) 
+//		{
+//			ar[i]=sc.nextInt();
+//		}
+////		int count=0;
+////		int i = 2;
+////		for (int j = 0; j < ar.length; j++) 
+////		{
+////			
+////			while(i<=ar[j]/2)
+////			{
+////				if(ar[j]%i!=0)
+////				{
+////					count++;
+////				}
+////				i++;
+////			}
+////		}
+////		System.out.println(" Prime No " + count);
+//
+//		for(int i=0; i<ar.length; i++)
+//		{
+//			boolean isPrime = true;
+//			for (int j=2; j<i; j++)
+//			{
+//				if(i%j==0)
+//				{
+//					isPrime = false;
+//					break;
+//				}
+//			}
+//			if(isPrime)
+//	            System.out.println(i + " are the prime numbers in the array ");
+//		}
+//	}
+//}
+
+import java.util.Scanner;
+public class MainA6 {
+public static void main (String[] args){
+    int[] array = new int [5];
+    Scanner in = new Scanner (System.in);
+
+    System.out.println("Enter the elements of the array: ");
+    for(int i=0; i<5; i++)
+    {
+        array[i] = in.nextInt();
+    }
+//Elements in the array are looped one by one using for loop.
+    for(int i=0; i<array.length; i++){
+        boolean isPrime = true;
+
+//Using for loop and if condition, prime numbers are identified from all the numbers that are entered in the array.
+        for (int j=2; j<i; j++){
+
+            if(i%j==0){
+                isPrime = false;
+                break;
+            }
+        }
+     
+//All the prime numbers or the numbers that satisfy the if condition are displayed as output. 
+        if(isPrime)
+            System.out.println(i + " are the prime numbers in the array ");
+    }
+}
+}
+

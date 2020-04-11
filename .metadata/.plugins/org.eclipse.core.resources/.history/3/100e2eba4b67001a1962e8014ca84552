@@ -1,0 +1,8 @@
+package Virtusa;
+public class WeightedString 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

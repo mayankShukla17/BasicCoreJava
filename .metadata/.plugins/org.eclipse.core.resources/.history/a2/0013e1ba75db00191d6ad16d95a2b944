@@ -1,0 +1,18 @@
+package Strings;
+
+/*
+ * Wajp to check the second string is present in the first string or not.
+*/
+import java.util.Scanner;
+
+public class MainStr20 
+{	
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string ");
+		String st=sc.nextLine();
+		char ch[]=st.toCharArray();
+		
+	}
+}

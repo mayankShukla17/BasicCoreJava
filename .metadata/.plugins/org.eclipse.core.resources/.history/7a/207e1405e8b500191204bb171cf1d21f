@@ -1,0 +1,20 @@
+public class Pen {
+	String clr,
+	type = "marker", 
+	brand = "Camlin";
+	int price = 40;
+	
+	public static void main(String[] args) {
+		Pen p = new Pen();
+		Pen p1 = new Pen();
+		p.clr = "Blue";
+		p1.clr = "Green";
+		
+		System.out.println(p);
+		System.out.println(p1);
+	}
+	
+	
+	
+
+}

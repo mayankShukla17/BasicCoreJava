@@ -1,0 +1,15 @@
+package OnlineNestedClass;
+
+public class A //outer class
+{
+	int x1=90;//instance
+	static int y1=45;//static member
+	
+	int x=100;
+	static int y=450;
+	static class B
+	{
+		
+	}
+	
+}

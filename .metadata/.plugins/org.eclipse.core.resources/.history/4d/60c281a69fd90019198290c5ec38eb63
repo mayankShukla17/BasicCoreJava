@@ -1,0 +1,14 @@
+package Strings;
+
+/*(V.V.V.IMPORTANT)
+ * Wajp to check palindrome is possible or not by arranging the characters of user entered string.
+*/
+import java.util.Scanner;
+
+public class MainStr7 
+{
+	public static void main(String[] args) 
+	{
+		Scanner
+	}
+}

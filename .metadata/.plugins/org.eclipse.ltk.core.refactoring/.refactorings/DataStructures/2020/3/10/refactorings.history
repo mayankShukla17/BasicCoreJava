@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Virtusa.largestsubsetSum&apos; to &apos;LargestSubsetSum&apos;&#x0A;- Original project: &apos;DataStructures&apos;&#x0A;- Original element: &apos;Virtusa.largestsubsetSum&apos;&#x0A;- Renamed element: &apos;Virtusa.LargestSubsetSum&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;largestsubsetSum&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Virtusa{largestsubsetSum.java[largestsubsetSum" matchStrategy="1" name="LargestSubsetSum" qualified="false" references="true" similarDeclarations="false" stamp="1583247193952" textual="false" version="1.0"/>
+</session>

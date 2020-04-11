@@ -1,0 +1,12 @@
+package MBBootcamp.HackerRank;
+public class paras extends Object
+{
+	static 
+	{
+		System.out.println("Amrit");
+		System.exit(0);
+	}
+	public static void main(String [] args) 
+	{
+	}
+}

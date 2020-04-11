@@ -1,0 +1,17 @@
+package Strings;
+
+/*
+ * Wajp to convert every words first letter small and remaining letters capital.
+*/
+import java.util.Scanner;
+
+public class MainStr15 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string.");
+		String st=sc.nextLine();
+		
+	}
+}

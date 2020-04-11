@@ -1,0 +1,13 @@
+public class Projector {
+	String color = "White";
+	String brand = "EPSON";
+	void display() {}
+	
+	public static void main(String[] args) {
+		Projector p = new Projector();
+		p.display();
+		System.out.println(p);
+	}
+	
+	
+}

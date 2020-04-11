@@ -1,0 +1,28 @@
+package MBBootcamp.HackerRank;
+
+import java.util.Scanner;
+
+public class NFibbonocci 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no");
+		int n=sc.nextInt();
+		printFibbonocci(n);
+//		int ar[]=new int[in];
+//		System.out.println(in);
+	}
+	private static void printFibbonocci(int n) 
+	{
+		int f1=0,f2=1,f3;
+		int a[]=new int[n];
+		while (n>0){
+			System.out.print(a[f1]+" ");
+			f3=f1+f2;
+			f1=f2;
+			f2=f3;
+			n--;
+		}
+	}
+}

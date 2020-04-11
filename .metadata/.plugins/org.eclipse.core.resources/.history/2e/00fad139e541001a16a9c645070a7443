@@ -1,0 +1,29 @@
+package MBBootcamp.HackerRank;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+public class SubarraySum 
+{
+	public static long subarraySum(List<Integer> arr)
+	{
+		int sum=0;
+		int a[]=
+				for (int i = 0; i < arr.size(); i++) 
+				{
+					sum+=(a[i]*(a.length)*(1+i));
+				}
+		return sum;
+	}
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		List<Integer> li=new ArrayList<Integer>();
+		while(true)
+		{
+
+		}
+		long result=subarraySum(li);
+		System.out.println(result);
+	}
+}

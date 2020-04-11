@@ -1,0 +1,9 @@
+package StringPrograms;
+//WAJP convert all character in upper case.
+public class MainSt4 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

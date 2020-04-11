@@ -1,0 +1,18 @@
+package ArrayPrograms;
+//WAJP to count how many even and odd present in the matrix
+//Define a method to return how many odd & even no present in the matrix.
+import java.util.Scanner;
+
+public class MainMat6 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		Matrix mt=new Matrix();
+		System.out.println("Read Matrix: ");
+		int a[][]=mt.readMat();
+		System.out.println("Entered Matrix: ");
+		mt.dispMat(a);
+		mt.countEO(a);
+	}
+}
